@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    padding: 5%;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    background-color: @mainColor;
+    @media @mobile{
+        flex-direction: column;
+        padding: 0%;
+    }
+    .links{
+        .displayEven;
+        width: 30%;
+        @media @mobile{
+            display: flex;
+            width: 100%;
+        }
+        a{
+            text-decoration: none;
+            padding-top: 1%;
+            color: @accentColor;
+            &:hover{
+                color: @navBtns;
+            }
+        }
+    }
+    h1{
+        font-size: 2rem;
+        margin-left: 20%;
+        color: @accentColor;
+        @media @mobile{
+            font-size: 5rem;
+            margin-left: 22%;
+        }
+    }
+    .navBtns{
+        margin-right: 20%;
+        @media @mobile {
+        padding-left: 33%;
+        }
+        button{
+            font-size: 1.15rem;
+            &:hover{
+                background-color: @btnColor;
+            }
+        }
+    }
+}
