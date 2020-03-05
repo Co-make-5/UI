@@ -1,0 +1,385 @@
+.displayEven {
+  display: flex;
+  justify-content: space-evenly;
+}
+.displayCenter {
+  display: flex;
+  justify-content: center;
+}
+.gitBtns {
+  height: 3%;
+  border: solid 2px #00b246;
+  border-radius: 15px;
+}
+.gitBtns:hover {
+  background-color: #00b246;
+}
+.infoStyles {
+  line-height: 2rem;
+  font-size: 1.35rem;
+}
+.profileImg {
+  border-radius: 50%;
+  height: 25rem;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Anton';
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+nav {
+  display: flex;
+  padding: 5%;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  background-color: #00b246;
+}
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    padding: 0%;
+  }
+}
+nav .links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+}
+@media (max-width: 500px) {
+  nav .links {
+    display: flex;
+    width: 100%;
+  }
+}
+nav .links a {
+  text-decoration: none;
+  padding-top: 1%;
+  color: white;
+}
+nav .links a:hover {
+  color: grey;
+}
+nav h1 {
+  font-size: 2rem;
+  margin-left: 20%;
+  color: white;
+}
+@media (max-width: 500px) {
+  nav h1 {
+    font-size: 5rem;
+    margin-left: 22%;
+  }
+}
+nav .navBtns {
+  margin-right: 20%;
+}
+@media (max-width: 500px) {
+  nav .navBtns {
+    padding-left: 33%;
+  }
+}
+nav .navBtns button {
+  font-size: 1.15rem;
+}
+nav .navBtns button:hover {
+  background-color: greenyellow;
+}
+footer {
+  padding: 3%;
+  background-color: #00b246;
+}
+.topContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .topContent {
+    flex-direction: column;
+    padding-left: 10%;
+  }
+}
+.topContent img {
+  border-radius: 50%;
+  height: 25rem;
+}
+.topContent .team {
+  margin-top: 7%;
+}
+@media (max-width: 500px) {
+  .topContent .team {
+    padding: 5% 0%;
+  }
+}
+.topContent .team .info {
+  line-height: 2rem;
+  font-size: 1.35rem;
+}
+.topContent .team a img {
+  height: 3%;
+  border: solid 2px #00b246;
+  border-radius: 15px;
+}
+.topContent .team a img:hover {
+  background-color: #00b246;
+}
+@media (max-width: 500px) {
+  .topContent .team a img {
+    width: 30%;
+  }
+}
+.btmContent {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .btmContent {
+    flex-direction: column;
+    padding-left: 10%;
+  }
+}
+.btmContent img {
+  border-radius: 50%;
+  height: 25rem;
+}
+@media (max-width: 500px) {
+  .btmContent .team {
+    padding: 5% 0%;
+  }
+}
+.btmContent .team .info {
+  line-height: 2rem;
+  font-size: 1.35rem;
+}
+.btmContent .team a img {
+  height: 3%;
+  border: solid 2px #00b246;
+  border-radius: 15px;
+}
+.btmContent .team a img:hover {
+  background-color: #00b246;
+}
+@media (max-width: 500px) {
+  .btmContent .team a img {
+    width: 30%;
+  }
+}
+header {
+  background-image: url(../img/paul-hanaoka-5Za2sS955yg-unsplash.jpg);
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+header h2 {
+  font-size: 5rem;
+  padding: 5%;
+  color: #00b246;
+  opacity: 1;
+  background-color: white;
+  border: solid 3px #00b246;
+}
+.homeTop {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+@media (max-width: 500px) {
+  .homeTop {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+}
+.homeTop img {
+  width: 30%;
+  height: 30.75rem;
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .homeTop img {
+    width: 100%;
+    height: 27rem;
+  }
+}
+.homeTop p {
+  font-size: 2rem;
+}
+.homeTop .contentList {
+  padding: 3% 0;
+}
+.homeTop .contentList li {
+  padding: 5% 0;
+  font-size: 1.75rem;
+}
+.homeTop .contentList button {
+  font-size: 1.75rem;
+  border-radius: 7px;
+}
+.homeTop .contentList button:hover {
+  background-color: greenyellow;
+  border-radius: 7px;
+}
+.homeBtm {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+@media (max-width: 500px) {
+  .homeBtm {
+    flex-direction: column;
+  }
+}
+.homeBtm img {
+  width: 31%;
+  height: 30.75rem;
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .homeBtm img {
+    width: 100%;
+    height: 27rem;
+  }
+}
+.homeBtm p {
+  font-size: 2rem;
+  padding-left: 15%;
+}
+.homeBtm .contentListBtm {
+  padding: 3% 0;
+}
+.homeBtm .contentListBtm p {
+  padding: 2% 0;
+  line-height: 4rem;
+  margin-left: 5%;
+}
+.homeBtm .contentListBtm button {
+  font-size: 1.75rem;
+  border-radius: 7px;
+  margin-left: 5%;
+}
+.homeBtm .contentListBtm button:hover {
+  background-color: greenyellow;
+  border-radius: 7px;
+}
